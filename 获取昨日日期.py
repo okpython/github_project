@@ -5,6 +5,7 @@ import datetime
 
 def getYesterday():
     today = datetime.date.today()
+    # days可以随便取值
     oneday = datetime.timedelta(days=1)
     yesterday = today-oneday
     return yesterday
